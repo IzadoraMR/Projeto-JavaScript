@@ -9,12 +9,12 @@
 
 <body>
     <main>
-        <h1>Aparecida Nutição</h1>
+        <h1>Aparecida Nutricionista</h1>
         <nav>
 
             <div class="container">
                 <h2>Meus Pacientes</h2>
-                <HR align=left WIDTH=52%>
+                <HR align=left WIDTH=80%>
                 <div class="tabela ">
                     <table>
                         <thead>
@@ -28,7 +28,7 @@
                             </tr>
                         </thead>
                         <tbody id="tabela-pacientes">
-                            <tr class="paciente" id="primeiro-paciente">
+                            <tr class="paciente">
                                 <td class="info-nome">Paulo</td>
                                 <td class="info-peso">100</td>
                                 <td class="info-altura">2.0</td>
@@ -70,6 +70,32 @@
             </div>
         </nav>
     </main>
-    <script src="principal.js"></script>
+    <div class="container2">
+        <form id="formpaciente">
+
+            <h2>Adicionar novo paciente</h2>
+            <HR align=left WIDTH=80%>
+            <div class="">
+                <label id="textonome" for="nome">Nome:</label>
+                <input id="balaonome" type="text" placeholder="digite o nome do seu paciente" name="nome" />
+            </div>
+            <div class="grupo ">
+                <label id="textopeso" for="peso">Peso:</label>
+                <input id="balaopeso" type="text" placeholder="digite o peso do seu paciente" name="peso" />
+            </div>
+            <div class="grupo ">
+                <label id="textoaltura" for=" altura">Altura:</label>
+                <input id="balaoaltura" type=" text" placeholder="digite a altura do seu paciente" name="altura" />
+            </div>
+            <div class="grupo ">
+                <label id="textogordura" for="gordura_corporal">% de Gordura</label>
+                <input id="balaogordura" type="text" placeholder="digite a gordura corporal do seu paciente" name="gordura" />
+            </div>
+            <button id="adicionarpaciente" class="botaoprincipal">Adicionar</button>
+        </form>
+        <script src="principal.js"></script>
+    </div>
+
 </body>
-< /html>
+
+</html>
