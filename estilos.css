@@ -1,52 +1,161 @@
-.container {
-    margin: auto;
-    padding-left: 300px;
-    padding-bottom: 80px;
-}
-
-main h1 {
-    font-size: 40px;
-    background-color: #292c2b;
-    color: #FAFFFF;
-    text-align: left;
-    font-family: "Open Sans", sans-serif;
-    padding: 10px;
-    padding-left: 300px;
-}
-
-h2 {
-    font-size: 60px;
-    font-family: "Open Sans", sans-serif;
-    text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-
-/*Tabela*/
-
-table {
-    color: #333;
-    font-family: Helvetica, Arial, sans-serif;
-    width: 640px;
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-td,
-th {
-    border: 1px solid #CCC;
-    width: 90px;
-}
-
-.info {
-    background: #F3F3F3;
-    font-weight: bold;
-    height: 40px;
-}
-
-.paciente {
-    background: #FAFAFA;
-    text-align: center;
-    height: 30px;
-}
+    .container {
+        margin: auto;
+        padding-left: 300px;
+    }
+    
+    .container2 {
+        margin-bottom: 30%;
+    }
+    
+    main h1 {
+        font-size: 30px;
+        background-color: #292c2b;
+        color: #FAFFFF;
+        text-align: left;
+        font-family: "Open Sans", sans-serif;
+        padding: 20px;
+        padding-left: 300px;
+    }
+    
+    h2 {
+        font-size: 40px;
+        font-family: "Open Sans", sans-serif;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    HR {
+        margin-bottom: 30px;
+    }
+    /*Tabela*/
+    
+    table {
+        color: #333;
+        font-family: Helvetica, Arial, sans-serif;
+        width: 1000px;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    td,
+    th {
+        border: 1px solid #CCC;
+        width: 200px;
+        padding: 15px;
+    }
+    
+    .info {
+        background: #F3F3F3;
+        font-weight: bold;
+        height: 30px;
+    }
+    
+    .paciente {
+        background: #FAFAFA;
+        text-align: center;
+        height: 30px;
+    }
+    
+    .paciente-invalido {
+        background-color: lightcoral;
+    }
+    /* FORMULARIO*/
+    
+    form {
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 15px;
+        margin: auto;
+        padding-left: 300px;
+    }
+    
+    h1 {
+        margin-bottom: 20px;
+        color: #66FFFF;
+        text-shadow: 5px 5px 5px black;
+    }
+    
+    input,
+    textarea {
+        padding: 10px;
+        color: black;
+        margin-top: 10px;
+        border: 1px solid;
+    }
+    
+    .botaoprincipal {
+        background-color: #66FFFF;
+        height: 40px;
+        width: 100px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid;
+        color: black;
+        position: absolute;
+        top: 730px;
+        left: 300px;
+    }
+    
+    textarea {
+        width: 400px;
+        height: 120px;
+        line-height: 20px;
+    }
+    
+    form label {
+        margin-left: 20px;
+        color: #000000;
+        font-weight: bold;
+    }
+    
+    #textonome {
+        position: absolute;
+        top: 600px;
+        left: 280px;
+    }
+    
+    #balaonome {
+        position: absolute;
+        top: 610px;
+        left: 300px;
+        width: 980px;
+    }
+    
+    #textopeso {
+        position: absolute;
+        top: 670px;
+        left: 280px;
+    }
+    
+    #balaopeso {
+        position: absolute;
+        top: 680px;
+        left: 300px;
+        width: 295px;
+    }
+    
+    #textoaltura {
+        position: absolute;
+        top: 670px;
+        left: 628px;
+    }
+    
+    #balaoaltura {
+        position: absolute;
+        top: 680px;
+        left: 645px;
+        width: 295px;
+    }
+    
+    #textogordura {
+        position: absolute;
+        top: 670px;
+        left: 975px;
+    }
+    
+    #balaogordura {
+        position: absolute;
+        top: 680px;
+        left: 990px;
+        width: 295px;
+    }
