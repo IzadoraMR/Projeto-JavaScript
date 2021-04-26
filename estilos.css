@@ -1,6 +1,7 @@
     .container {
         margin: auto;
         padding-left: 300px;
+        text-align: center;
     }
     
     .container2 {
@@ -52,7 +53,6 @@
     }
     
     .paciente {
-        background: #FAFAFA;
         text-align: center;
         height: 30px;
     }
@@ -91,9 +91,9 @@
         border-radius: 5px;
         border: 1px solid;
         color: black;
-        position: absolute;
-        top: 730px;
-        left: 300px;
+        position: relative;
+        top: -50px;
+        left: -7px;
     }
     
     textarea {
@@ -109,53 +109,53 @@
     }
     
     #textonome {
-        position: absolute;
-        top: 600px;
-        left: 280px;
+        position: relative;
+        top: -30px;
+        left: -25px;
     }
     
     #balaonome {
-        position: absolute;
-        top: 610px;
-        left: 300px;
+        position: relative;
+        top: 0px;
+        left: -85px;
         width: 980px;
     }
     
     #textopeso {
-        position: absolute;
-        top: 670px;
-        left: 280px;
+        position: relative;
+        top: 0px;
+        left: -25px;
     }
     
     #balaopeso {
-        position: absolute;
-        top: 680px;
-        left: 300px;
+        position: relative;
+        top: 30px;
+        left: -77px;
         width: 295px;
     }
     
     #textoaltura {
-        position: absolute;
-        top: 670px;
-        left: 628px;
+        position: relative;
+        top: -50px;
+        left: 320px;
     }
     
     #balaoaltura {
-        position: absolute;
-        top: 680px;
-        left: 645px;
+        position: relative;
+        top: -18px;
+        left: 255px;
         width: 295px;
     }
     
     #textogordura {
-        position: absolute;
-        top: 670px;
-        left: 975px;
+        position: relative;
+        top: -100px;
+        left: 657px;
     }
     
     #balaogordura {
-        position: absolute;
-        top: 680px;
-        left: 990px;
+        position: relative;
+        left: 538px;
+        top: -66px;
         width: 295px;
     }
