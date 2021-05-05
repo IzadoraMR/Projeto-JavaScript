@@ -15,6 +15,9 @@
             <div class="container">
                 <h2>Meus Pacientes</h2>
                 <HR align=left WIDTH=80%>
+                <label id="textfiltro" for="filtar-tabela">Filtre:</label>
+                <input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente">
+
                 <div class="tabela ">
                     <table>
                         <thead>
@@ -75,7 +78,8 @@
 
             <h2>Adicionar novo paciente</h2>
             <HR align=left WIDTH=80%>
-            <ul id="mensegens-erro"></ul>
+            <ul id="mensagens-erro">
+            </ul>
             <div class="">
                 <label id="textonome" for="nome">Nome:</label>
                 <input id="balaonome" type="text" placeholder="digite o nome do seu paciente" name="nome" />
@@ -96,6 +100,8 @@
         </form>
         <script src="calculaIMC.js"></script>
         <script src="form.js"></script>
+        <script src="remover-paciente.js"></script>
+        <script src="filtra.js"></script>
     </div>
 
 </body>
