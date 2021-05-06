@@ -5,7 +5,12 @@
         }
         
         .container2 {
-            margin-bottom: 10%;
+            margin-bottom: 5%;
+        }
+        
+        #img {
+            position: absolute;
+            left: 300px;
         }
         
         main h1 {
@@ -15,7 +20,7 @@
             text-align: left;
             font-family: "Open Sans", sans-serif;
             padding: 20px;
-            padding-left: 300px;
+            padding-left: 370px;
         }
         
         h2 {
