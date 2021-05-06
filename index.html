@@ -9,7 +9,7 @@
 
 <body>
     <main>
-        <h1>Aparecida Nutricionista</h1>
+        <h1>Aparecida Nutrição</h1>
         <nav>
 
             <div class="container">
@@ -69,10 +69,14 @@
                             </tr>
                         </tbody>
                     </table>
+
+                    <button id="buscar-pacientes" class=" botaoprincipal ">Buscar pacientes</button>
                 </div>
+                <span id="erro-ajax" class="invisivel">Erro a buscar pacientes</span>
             </div>
         </nav>
     </main>
+
     <div class="container2">
         <form id="formpaciente">
 
@@ -93,7 +97,7 @@
                 <input id="balaoaltura" type=" text" placeholder="digite a altura do seu paciente" name="altura" />
             </div>
             <div class="grupo ">
-                <label id="textogordura" for="gordura">% de Gordura</label>
+                <label id="textogordura" for="gordura">% de Gordura:</label>
                 <input id="balaogordura" type="text" placeholder="digite a gordura corporal do seu paciente" name="gordura" />
             </div>
             <button id="adicionarpaciente" class="botaoprincipal">Adicionar</button>
@@ -102,6 +106,7 @@
         <script src="form.js"></script>
         <script src="remover-paciente.js"></script>
         <script src="filtra.js"></script>
+        <script src="burcar-pacientes.js"></script>
     </div>
 
 </body>
