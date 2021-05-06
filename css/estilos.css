@@ -1,0 +1,210 @@
+        .container {
+            margin: auto;
+            padding-left: 300px;
+            text-align: center;
+        }
+        
+        .container2 {
+            margin-bottom: 5%;
+        }
+        
+        #img {
+            position: absolute;
+            left: 300px;
+        }
+        
+        main h1 {
+            font-size: 25px;
+            background-color: #292c2b;
+            color: #FAFFFF;
+            text-align: left;
+            font-family: "Open Sans", sans-serif;
+            padding: 20px;
+            padding-left: 370px;
+        }
+        
+        h2 {
+            font-size: 30px;
+            font-family: "Open Sans", sans-serif;
+            text-align: left;
+            padding-top: 25px;
+            padding-bottom: 15px;
+        }
+        
+        HR {
+            margin-bottom: 30px;
+        }
+        /*Tabela*/
+        
+        table {
+            color: #333;
+            font-family: Helvetica, Arial, sans-serif;
+            width: 1000px;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        
+        td,
+        th {
+            border: 1px solid #CCC;
+            width: 200px;
+            padding: 15px;
+        }
+        
+        .info {
+            background: #F3F3F3;
+            font-weight: bold;
+            height: 20px;
+        }
+        
+        .paciente {
+            text-align: center;
+            height: 20px;
+        }
+        
+        .paciente-invalido {
+            background-color: lightcoral;
+        }
+        
+        .fadeOut {
+            opacity: 0;
+            transition: 0.5s;
+        }
+        
+        #textfiltro {
+            position: relative;
+            left: -475px;
+            top: -40px;
+        }
+        
+        #filtrar-tabela {
+            width: 200px;
+            height: 20px;
+            margin-bottom: 10px;
+            position: relative;
+            left: -520px;
+        }
+        
+        .invisivel {
+            display: none;
+        }
+        
+        #buscar-pacientes {
+            position: relative;
+            top: 10px;
+            left: -560px;
+        }
+        
+        #erro-ajax {
+            position: relative;
+            top: -15px;
+            left: -400px;
+            font-size: 18px;
+        }
+        /* FORMULARIO*/
+        
+        form {
+            font-family: Verdana, Tahoma, sans-serif;
+            font-size: 15px;
+            margin: auto;
+            padding-left: 300px;
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+            color: #66FFFF;
+            text-shadow: 5px 5px 5px black;
+        }
+        
+        input,
+        textarea {
+            padding: 10px;
+            color: black;
+            margin-top: 10px;
+            border: 1px solid;
+        }
+        
+        .botaoprincipal {
+            background-color: #66FFFF;
+            height: 40px;
+            width: 100px;
+            font-weight: bold;
+            border-radius: 5px;
+            border: 1px solid;
+            color: black;
+            position: relative;
+            top: -20px;
+            left: -7px;
+        }
+        
+        textarea {
+            width: 400px;
+            height: 120px;
+            line-height: 20px;
+        }
+        
+        form label {
+            margin-left: 20px;
+            color: #000000;
+            font-weight: bold;
+        }
+        
+        #textonome {
+            position: relative;
+            top: -20px;
+            left: -25px;
+        }
+        
+        #balaonome {
+            position: relative;
+            top: 10px;
+            left: -85px;
+            width: 980px;
+        }
+        
+        #textopeso {
+            position: relative;
+            top: 10px;
+            left: -25px;
+        }
+        
+        #balaopeso {
+            position: relative;
+            top: 40px;
+            left: -77px;
+            width: 295px;
+        }
+        
+        #textoaltura {
+            position: relative;
+            top: -40px;
+            left: 320px;
+        }
+        
+        #balaoaltura {
+            position: relative;
+            top: -8px;
+            left: 255px;
+            width: 295px;
+        }
+        
+        #textogordura {
+            position: relative;
+            top: -90px;
+            left: 657px;
+        }
+        
+        #balaogordura {
+            position: relative;
+            left: 538px;
+            top: -56px;
+            width: 295px;
+        }
+        
+        #mensagens-erro {
+            height: auto;
+            background-color: transparent;
+            color: red;
+            text-align: left;
+            line-height: 2;
+        }
